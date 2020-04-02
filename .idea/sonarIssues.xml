@@ -88,6 +88,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Projects/KotlinCoroutines/AndroidCoroutinesRetrofit/app/build.gradle">
           <value>
             <set />
