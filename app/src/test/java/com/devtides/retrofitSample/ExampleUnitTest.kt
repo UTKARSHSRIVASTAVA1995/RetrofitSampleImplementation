@@ -1,4 +1,4 @@
-package com.devtides.retrofitproject
+package com.devtides.retrofitSample
 
 import org.junit.Test
 

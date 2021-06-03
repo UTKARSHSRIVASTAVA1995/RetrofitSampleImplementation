@@ -1,4 +1,4 @@
-package com.devtides.retrofitproject.view
+package com.devtides.retrofitSample.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,8 +6,8 @@ import android.view.View
 import androidx.activity.viewModels
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.devtides.retrofitproject.R
-import com.devtides.retrofitproject.viewmodel.MainViewModel
+import com.devtides.retrofitSample.R
+import com.devtides.retrofitSample.viewmodel.MainViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

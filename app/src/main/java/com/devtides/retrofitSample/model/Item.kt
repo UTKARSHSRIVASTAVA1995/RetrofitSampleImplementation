@@ -1,4 +1,4 @@
-package com.devtides.retrofitproject.model
+package com.devtides.retrofitSample.model
 
 const val TYPE_ITEM = 0
 const val TYPE_CATEGORY = 1
