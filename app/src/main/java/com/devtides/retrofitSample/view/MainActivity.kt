@@ -19,8 +19,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-        viewModel.fetchData()
+        viewModel.fetchDataRx()
+        //viewModel.fetchData()
         //viewModel.fetchDatSync()
 
         items_list.apply {

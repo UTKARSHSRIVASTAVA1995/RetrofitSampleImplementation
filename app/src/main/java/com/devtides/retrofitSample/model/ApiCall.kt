@@ -1,5 +1,6 @@
 package com.devtides.retrofitSample.model
 
+import io.reactivex.Single
 import retrofit2.Call
 import retrofit2.http.*
 
@@ -25,4 +26,8 @@ interface ApiCall {
     @FormUrlEncoded
     @POST("apiCall")
     fun callFormData(@FieldMap fields: Map<String, String>): Call<ApiCallResponse>
+
+    //Below we use Rxjava Single because Single is observer that emits one value and finish it.
+    @GET("apiCall")
+    fun callGetRx(): Single<ApiCallResponse>
 }
